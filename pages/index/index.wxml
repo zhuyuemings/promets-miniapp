@@ -12,6 +12,7 @@
       <text class="userinfo-nickname">{{userInfo.province}}</text>
       <text class="userinfo-nickname">{{userInfo.city}}</text>
       <text class="userinfo-nickname">{{userInfo.language}}</text>
+      <text class="userinfo-nickname">{{userId}}</text>
     </block>
   </view>
   <view class="usermotto">

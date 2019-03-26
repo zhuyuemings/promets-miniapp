@@ -9,10 +9,18 @@ Page({
     motto: '欢迎使用Promets！',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    userId: null,
+    hasUserId: false
   },
   //事件处理函数
   onLoad: function () {
+    if (app.globalData.userId) {
+      this.setData({
+        userId: app.globalData.userId,
+        hasUserId: true
+      })
+    }
     if (app.globalData.userInfo) {
       log('本地已有用户信息：userInfo=' + app.globalData.userInfo)
       this.setData({
