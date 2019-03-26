@@ -1,8 +1,12 @@
 // logger.js
 const debug = true
 
-export function log(msg) {
+export function log(msg, obj) {
     if (debug) {
-        console.log(msg)
+        if(obj){
+            console.log(msg + ":" + JSON.stringify(obj))
+        }else{
+            console.log(msg)
+        }
     }
 }
