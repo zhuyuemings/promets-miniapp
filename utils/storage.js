@@ -1,7 +1,6 @@
 // storage.js
 import { api } from '../api/api'
 import { wxPostRequest } from './promise'
-import { log } from './logger'
 
 const KEY_USER_INFO = 'KEY_USER_INFO';
 

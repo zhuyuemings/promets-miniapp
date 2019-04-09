@@ -1,5 +1,4 @@
 //index.js
-import { log } from '../../utils/logger'
 
 //获取应用实例
 const app = getApp()
@@ -20,9 +19,16 @@ Page({
         userId: app.globalData.userId,
         hasUserId: true
       })
+    } else {
+      // 还没有加载过来 使用回调解决
+      app.userIdReadyCallback = res => {
+        this.setData({
+          userId: app.globalData.userId,
+          hasUserId: true
+        })
+      }
     }
     if (app.globalData.userInfo) {
-      log('本地已有用户信息：userInfo=' + app.globalData.userInfo)
       this.setData({
         userInfo: app.globalData.userInfo,
         hasUserInfo: true
@@ -31,7 +37,6 @@ Page({
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
       // 所以此处加入 callback 以防止这种情况
       app.userInfoReadyCallback = res => {
-        log('按钮加载用户信息：userInfo=' + res.userInfo)
         app.saveUserInfo(res.userInfo)
         this.setData({
           userInfo: res.userInfo,
@@ -42,7 +47,6 @@ Page({
       // 在没有 open-type=getUserInfo 版本的兼容处理
       wx.getUserInfo({
         success: res => {
-          log('兼容加载用户信息：userInfo=' + res.userInfo)
           app.saveUserInfo(res.userInfo)
           this.setData({
             userInfo: res.userInfo,
@@ -53,8 +57,6 @@ Page({
     }
   },
   getUserInfo: function (e) {
-    console.log(e)
-    log('获取用户信息：userInfo=' + JSON.stringify(e.detail.userInfo))
     app.saveUserInfo(e.detail.userInfo)
     this.setData({
       userInfo: e.detail.userInfo,
