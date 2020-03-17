@@ -1,0 +1,52 @@
+/* pages/smile/smile.wxss */
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 15%;
+  /* border: solid 5rpx #ffadd2; */
+  border: solid 5rpx white;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.hitokoto {
+  margin-top: 100rpx;
+  width: 80%;
+  /* margin: auto; */
+  text-align: left;
+  color: #8c8c8c;
+  text-indent: 60rpx;
+}
+
+.btn_group {
+  margin: 100rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  width: 60rpx;
+  height: 60rpx;
+  padding-left: 0rpx;
+  padding-right: 0rpx;
+  border: 0;
+}
+.btn::after {
+  border: 0;
+}
+
+.btn_icon {
+  width: 60rpx;
+  height: 100%;
+}

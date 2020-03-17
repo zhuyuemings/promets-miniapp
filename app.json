@@ -1,11 +1,50 @@
 {
-  "pages":[
-    "pages/index/index"
+  "tabBar": {
+    "color": "#8c8c8c",
+    "selectedColor": "#ffadd2",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/love/love",
+        "text": "我们",
+        "iconPath": "assets/tap/love.png",
+        "selectedIconPath": "assets/tap/love_active.png"
+      },
+      {
+        "pagePath": "pages/diary/diary",
+        "text": "时光记录",
+        "iconPath": "assets/tap/write.png",
+        "selectedIconPath": "assets/tap/write_active.png"
+      },
+      {
+        "pagePath": "pages/gifts/gifts",
+        "text": "纪念日",
+        "iconPath": "assets/tap/date.png",
+        "selectedIconPath": "assets/tap/date_active.png"
+      },
+      {
+        "pagePath": "pages/smile/smile",
+        "text": "我的",
+        "iconPath": "assets/tap/mine.png",
+        "selectedIconPath": "assets/tap/mine_active.png"
+      }
+    ]
+  },
+  "pages": [
+    "pages/start/start",
+    "pages/love/love",
+    "pages/diary/diary",
+    "pages/gifts/gifts",
+    "pages/smile/smile"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+  "window": {
+    "backgroundColor": "#fafafa",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fafafa",
+    "navigationBarTitleText": "promets",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
 }

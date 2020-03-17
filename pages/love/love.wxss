@@ -1,0 +1,60 @@
+/* pages/love/love.wxss */
+
+/* page {
+  background-image: url(https://promets.jezhu.ltd/img/love.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+} */
+
+.love {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover {
+  margin-top: 30rpx;
+  width: 95%;
+  border: solid 5rpx white;
+  border-radius: 20rpx;
+}
+
+.content {
+  opacity: 0.6;
+  position: fixed;
+  width: 100%;
+  height: 100rpx;
+  background: white;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #ffadd2;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  bottom: 90rpx;
+  border: solid 5rpx white;
+  border-radius: 20rpx;
+  padding-top: 20rpx;
+}
+
+.tip {
+  font-size: 30rpx;
+  font-family: "微软雅黑";
+  color: #8c8c8c;
+  margin-top: 20rpx;
+}
+
+.tip_num {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #ffadd2;
+}
+
+.love_btn{
+  width: 50rpx;
+  height: 50rpx;
+  padding: 5rpx 20rpx;
+}

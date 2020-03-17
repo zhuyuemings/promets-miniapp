@@ -1,0 +1,37 @@
+/* pages/gifts/gifts.wxss */
+
+/* .gifts {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 80%;
+  margin: auto;
+  margin-top: 120rpx;
+}
+
+.gifts text {
+  color: #8c8c8c;
+} */
+
+.day {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 120rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tip {
+  font-size: 30rpx;
+  font-family: "微软雅黑";
+  color: #8c8c8c;
+  margin-top: 30rpx;
+}
+
+.tip_num {
+  font-size: 42rpx;
+  font-weight: bold;
+  color: #ffadd2;
+}

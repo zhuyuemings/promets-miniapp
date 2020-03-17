@@ -1,5 +1,6 @@
 /**app.wxss**/
-.container {
+
+/* .container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -7,4 +8,14 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}  */
+
+page {
+  background-color: #fafafa;
+  font-family: "Microsoft YaHei";
+  font-size: 30rpx;
+}
+
+.indent2{
+  text-indent: 60rpx;
+}

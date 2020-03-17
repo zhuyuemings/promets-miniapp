@@ -1,0 +1,18 @@
+/* pages/diary/diary.wxss */
+.search{
+  border-bottom: 1rpx solid #bfbfbf;
+  width: 80%;
+  margin: auto;
+  margin-top: 120rpx;
+}
+
+  .info {
+    /* margin-top: 300rpx; */
+    top: 300rpx;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #8c8c8c;
+    /* text-indent: 60rpx; */
+
+  }

@@ -1,0 +1,8 @@
+<!--pages/love/love.wxml-->
+<view class="love">
+  <image class="cover" src="../../assets/img/love.jpg" mode="widthFix"></image>
+  <view class="content">
+    zym  <image class="love_btn" src="../../assets/btn_icon/loving.png"></image>  hyh
+  </view>
+  <view class="tip">亲爱的，我们在一起 <text class="tip_num">{{days}}</text> 天了！</view>
+</view>

@@ -1,0 +1,17 @@
+<!--pages/start.wxml-->
+<cover-image class="logo" src="../../assets/logo/promets_logo.png">
+</cover-image>
+<view>
+  <view class="usermotto">
+    <text>{{motto}}</text>
+  </view>
+  <view class="userinfo">
+    <button class="start_btn" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      开始使用
+    </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>

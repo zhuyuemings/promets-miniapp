@@ -1,0 +1,4 @@
+<!--pages/diary/diary.wxml-->
+<input class="search" type="text" placeholder="输入标题/正文搜索心情" bindconfirm="searchDiary"></input>
+
+<!-- <view class="info">此功能暂不开放哟</view> -->
