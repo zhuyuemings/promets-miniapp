@@ -3,7 +3,7 @@
 const app = getApp()
 Page({
   data: {
-    motto: '致最爱的可爱的未婚妻小黄同学',
+    motto: '致我最爱的可爱的老婆-小黄同学',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')

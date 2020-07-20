@@ -1,16 +1,16 @@
 <!--pages/gifts/gifts.wxml-->
 
 <view class="day">
-  <view class="tip">距计划领证（2022.11.02）还有 <text class="tip_num">{{marry}}</text> 天</view>
+  <view class="tip"><text>距离计划婚礼（壬寅年正月初六/2022.02.06）\n</text>还有 <text class="tip_num">{{marry}}</text> 天</view>
   <view class="tip"></view>
   <view class="tip"></view>
-  <view class="tip">距小黄生日（十月十一）还有 <text class="tip_num">{{hBirthday}}</text> 天</view>
-  <view class="tip">距老朱生日（七月廿四）还有 <text class="tip_num">{{zBirthday}}</text> 天</view>
+  <view class="tip">距离小黄生日（十月十一）还有 <text class="tip_num">{{hBirthday}}</text> 天</view>
+  <view class="tip">距离老朱生日（七月廿四）还有 <text class="tip_num">{{zBirthday}}</text> 天</view>
   <view class="tip"></view>
   <view class="tip"></view>
   <view class="tip">相恋（2019.11.02）已有 <text class="tip_num">{{loved}}</text> 天</view>
   <view class="tip">相识（2019.10.17）已有 <text class="tip_num">{{met}}</text> 天</view>
-  <view class="tip">订婚（2020.01.30）已有 <text class="tip_num">{{engagement}}</text> 天</view>
+  <view class="tip">订婚（庚子年正月初六/2020.01.30）已有 <text class="tip_num">{{engagement}}</text> 天</view>
   <view class="tip"></view>
   <view class="tip"></view>
   <view class="tip">{{meetPrefix}}<text class="tip_num">{{meet}}</text></view>

@@ -16,33 +16,52 @@
 }
 
 .cover {
-  margin-top: 30rpx;
-  width: 95%;
-  border: solid 5rpx white;
-  border-radius: 20rpx;
+  margin-top: 25%;
+  width: 80%;
+  border: solid 20rpx white;
+  border-radius: 25rpx;
 }
 
 .content {
   opacity: 0.6;
   position: fixed;
-  width: 100%;
-  height: 100rpx;
+  width: 80%;
+  height: 80rpx;
   background: white;
   font-size: 36rpx;
   font-weight: bold;
   color: #ffadd2;
   display: flex;
-  align-items: top;
+  align-items: center;
   justify-content: center;
-  bottom: 90rpx;
+  top: 3%;
   border: solid 5rpx white;
-  border-radius: 20rpx;
-  padding-top: 20rpx;
+  border-radius: 25rpx;
+  padding: 15rpx;
+}
+
+.content2 {
+  opacity: 0.6;
+  position: fixed;
+  width: 80%;
+  height: 80rpx;
+  background: white;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #ffadd2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 60%;
+  border: solid 5rpx white;
+  border-radius: 25rpx;
+  padding: 15rpx;
 }
 
 .tip {
   font-size: 30rpx;
   font-family: "微软雅黑";
+  font-weight: bold;
   color: #8c8c8c;
   margin-top: 20rpx;
 }

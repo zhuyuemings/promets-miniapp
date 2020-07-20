@@ -38,8 +38,8 @@ Page({
     this.refreshDays()
     setInterval(this.refreshDays, 10000)
 
-    this.refreshMeet()
-    setInterval(this.refreshMeet, 1000)
+    // this.refreshMeet()
+    // setInterval(this.refreshMeet, 1000)
   },
 
   refreshDays: function () {
@@ -47,7 +47,7 @@ Page({
       hBirthday: this.caculateDays('2020/11/25 00:00:00'),
       zBirthday: this.caculateDays('2020/09/11 00:00:00'),
       engagement: this.caculateDays('2020/01/30 00:00:00'),
-      marry: this.caculateDays('2022/11/02 00:00:00'),
+      marry: this.caculateDays('2022/02/06 00:00:00'),
       loved: this.caculateDays('2019/11/02 00:00:00'),
       met: this.caculateDays('2019/10/17 00:00:00')
     })
